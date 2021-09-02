@@ -30,7 +30,7 @@ function preload(){
 }
 
 function draw(){
-  if(playerCount === 1){
+  if(playerCount === 4){
     game.update(1);
   }
   if(gameState === 1){
